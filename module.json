@@ -9,47 +9,47 @@
     "packs": [
         {
             "name": "sotgh-creatures",
-            "label": "Shared Creatures",
+            "label": "Saga Of The Goblin Horde Creatures",
             "path": "./packs/creatures.db",
             "entity": "Actor"
         },
         {
             "name": "sotgh-items",
-            "label": "Shared Items",
+            "label": "Saga Of The Goblin Horde Items",
             "path": "./packs/items.db",
             "entity": "Item"
         },
         {
             "name": "sotgh-scenes",
-            "label": "Shared Scenes",
+            "label": "Saga Of The Goblin Horde Scenes",
             "path": "./packs/scenes.db",
             "entity": "Scene"
         },
         {
             "name": "sotgh-journal-entries",
-            "label": "Shared Journal Entries",
+            "label": "Saga Of The Goblin Horde Journal Entries",
             "path": "./packs/journal-entries.db",
             "entity": "JournalEntry"
         },
         {
             "name": "sotgh-macros",
-            "label": "Shared Macros",
+            "label": "Saga Of The Goblin Horde Macros",
             "path": "./packs/macros.db",
             "entity": "Macro"
         },
         {
             "name": "sotgh-roll-tables",
-            "label": "Shared Roll Tables",
+            "label": "Saga Of The Goblin Horde Roll Tables",
             "path": "./packs/roll-tables.db",
             "entity": "RollTable"
         },
         {
             "name": "sotgh-playlists",
-            "label": "Shared Playlists",
+            "label": "Saga Of The Goblin Horde Playlists",
             "path": "./packs/playlists.db",
             "entity": "Playlist"
         }
     ],
-    "manifest": "https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/download/Test/module.json",
-    "download": "https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/download/Test/Saga-Of-The-Goblin-Horde.zip"
+    "manifest": "https://github.com/CrezTheHomie/SOTGH/releases/latest/download/module.json",
+    "download": "https://gitlab.com/CrezTheHomie/SOTGH/archive/master.zip"
   }
