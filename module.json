@@ -50,6 +50,6 @@
             "entity": "Playlist"
         }
     ],
-    "manifest": "https://github.com/CrezTheHomie/SOTGH",
-    "download": "https://gitlab.com/CrezTheHomie/SOTGH.zip"
+    "manifest": "https://github.com/CrezTheHomie/SOTGH/releases/latest/download/module.json",
+    "download": "https://gitlab.com/CrezTheHomie/SOTGH/archive/master.zip"
   }
