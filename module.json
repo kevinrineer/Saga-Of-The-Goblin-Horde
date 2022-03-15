@@ -1,0 +1,55 @@
+{
+    "name": "Saga-Of-The-Goblin-Horde",
+    "title": "Saga Of The Goblin Horde",
+    "description": "Saga Of The Goblin Horde is a setting made by Richard Zadmar Woolcock for the Savage Worlds Adventure game system.",
+    "version": "1.0.0",
+    "author": "/u/crezyte",
+    "minimumCoreVersion": "0.7.5",
+    "compatibleCoreVersion": "0.7.9",
+    "packs": [
+        {
+            "name": "sotgh-creatures",
+            "label": "Shared Creatures",
+            "path": "./packs/creatures.db",
+            "entity": "Actor"
+        },
+        {
+            "name": "sotgh-items",
+            "label": "Shared Items",
+            "path": "./packs/items.db",
+            "entity": "Item"
+        },
+        {
+            "name": "sotgh-scenes",
+            "label": "Shared Scenes",
+            "path": "./packs/scenes.db",
+            "entity": "Scene"
+        },
+        {
+            "name": "sotgh-journal-entries",
+            "label": "Shared Journal Entries",
+            "path": "./packs/journal-entries.db",
+            "entity": "JournalEntry"
+        },
+        {
+            "name": "sotgh-macros",
+            "label": "Shared Macros",
+            "path": "./packs/macros.db",
+            "entity": "Macro"
+        },
+        {
+            "name": "sotgh-roll-tables",
+            "label": "Shared Roll Tables",
+            "path": "./packs/roll-tables.db",
+            "entity": "RollTable"
+        },
+        {
+            "name": "sotgh-playlists",
+            "label": "Shared Playlists",
+            "path": "./packs/playlists.db",
+            "entity": "Playlist"
+        }
+    ],
+    "manifest": "https://github.com/CrezTheHomie/SOTGH",
+    "download": "https://gitlab.com/CrezTheHomie/SOTGH.zip"
+  }
