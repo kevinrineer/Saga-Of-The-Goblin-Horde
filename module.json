@@ -50,6 +50,6 @@
             "entity": "Playlist"
         }
     ],
-    "manifest": "https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/-/raw/master/module.json",
-    "download": "https://gitlab.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/-/raw/master/Saga Of The Goblin Horde.zip"
+    "manifest": "https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/test/module.json",
+    "download": "https://gitlab.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/-/raw/master/Saga-Of-The-Goblin-Horde.zip"
   }
