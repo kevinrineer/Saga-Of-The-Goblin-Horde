@@ -2,54 +2,69 @@
     "name": "Saga-Of-The-Goblin-Horde",
     "title": "Saga Of The Goblin Horde",
     "description": "Saga Of The Goblin Horde is a setting made by Richard Zadmar Woolcock for the Savage Worlds Adventure game system.",
-    "version": "0.1.5",
+    "version": "0.2.1",
     "author": "/u/crezyte",
-    "minimumCoreVersion": "0.7.5",
+    "minimumCoreVersion": "0.8.9",
     "compatibleCoreVersion": "0.8.9",
+    "manifestPlusVersion": "1.0.0",
     "packs": [
         {
             "name": "sotgh-bestiary",
-            "label": "Saga Of The Goblin Horde Beastiary",
+            "label": "Beastiary",
             "path": "./packs/sotgh-bestiary.db",
             "entity": "Actor"
         },
         {
             "name": "sotgh-scenes",
-            "label": "Saga Of The Goblin Horde Scenes",
+            "label": "Scenes",
             "path": "./packs/scenes.db",
             "entity": "Scene"
         },
         {
             "name": "sogth-edges-hinderances",
-            "label": "Saga Of The Goblin Horde Edges and Hindrances",
+            "label": "Edges and Hindrances",
             "path": "./packs/sogth-edges-hinderances.db",
             "entity": "Item"
         },
         {
             "name": "sotgh-rules-setting",
-            "label": "Saga Of The Goblin Horde Rules and Setting",
+            "label": "Rules and Setting",
             "path": "./packs/sotgh-rules-setting.db",
             "entity": "JournalEntry"
         },
         {
             "name": "sotgh-macros",
-            "label": "Saga Of The Goblin Horde Macros",
+            "label": "Macros",
             "path": "./packs/sotgh-macros.db",
             "entity": "Macro"
         },
         {
             "name": "sotgh-roll-tables",
-            "label": "Saga Of The Goblin Horde Roll Tables",
+            "label": "Roll Tables",
             "path": "./packs/sotgh-roll-tables.db",
             "entity": "RollTable"
         },
         {
             "name": "sotgh-playlists",
-            "label": "Saga Of The Goblin Horde Playlists",
+            "label": "Playlists",
             "path": "./packs/playlists.db",
             "entity": "Playlist"
         }
     ],
+    "system": [
+        "swade"
+    ],
+    "dependencies": [
+        {
+          "type": "module",
+          "name": "compendium-folders",
+          "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/082-update/module.json"
+        },
+        {
+          "name": "swade",
+          "type": "system"
+        }
+      ],
     "manifest": "https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/download/0.2.0/module.json",
     "download": "https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/download/0.2.0/Saga-Of-The-Goblin-Horde.zip"
   }
