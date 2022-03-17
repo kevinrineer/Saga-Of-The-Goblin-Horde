@@ -1,7 +1,7 @@
 # 1. Saga Of The Goblin Horde
 Library for [Foundry VTT](https://foundryvtt.com/) which provides packaged setting information as well as bestiary, ruleset, and journal entries.
 
-[![Version (latest)](https://img.shields.io/github/v/releaseCrezTheHomie/Saga-Of-The-Goblin-Horde)](https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/latest)
+[![Version (latest)](https://img.shields.io/github/v/release/CrezTheHomie/Saga-Of-The-Goblin-Horde)](https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/latest)
 [![Foundry Version](https://img.shields.io/badge/dynamic/json.svg?url=https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/latest/download/module.json&label=Foundry%20Version&query=$.compatibleCoreVersion&colorB=blueviolet)](https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/latest)
 [![GitHub downloads (latest)](https://img.shields.io/badge/dynamic/json?label=Downloads@latest&query=assets[?(@.name.includes('zip'))].download_count&url=https://api.github.com/repos/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/latest&color=green)](https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/latest)
 [![Forge Install Base](https://img.shields.io/badge/dynamic/json?label=Forge%20Install%20Base&query=package.installs&suffix=%&url=https://forge-vtt.com/api/bazaar/package/lib-wrapper&colorB=brightgreen)](https://forge-vtt.com/)
