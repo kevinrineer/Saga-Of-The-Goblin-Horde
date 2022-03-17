@@ -10,7 +10,7 @@
     "packs": [
         {
             "name": "sotgh-bestiary",
-            "label": "Beastiary",
+            "label": "Bestiary",
             "path": "./packs/sotgh-bestiary.db",
             "entity": "Actor"
         },
