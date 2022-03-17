@@ -4,8 +4,8 @@
     "description": "Saga Of The Goblin Horde is a setting made by Richard Zadmar Woolcock for the Savage Worlds Adventure game system.",
     "version": "0.2.2",
     "author": "/u/crezyte",
-    "minimumCoreVersion": "0.9.0",
-    "compatibleCoreVersion": "0.9.0",
+    "minimumCoreVersion": "0.8.7",
+    "compatibleCoreVersion": "0.9.255",
     "manifestPlusVersion": "1.0.0",
     "packs": [
         {
