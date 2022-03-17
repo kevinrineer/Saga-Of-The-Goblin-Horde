@@ -18,7 +18,7 @@
             "path": "./packs/sotgh-weapons-armor.db",
             "system": "swade",
             "package": "Saga-Of-The-Goblin-Horde",
-            "private": true
+            "private": false
         },
         {
             "label": "Bestiary",
