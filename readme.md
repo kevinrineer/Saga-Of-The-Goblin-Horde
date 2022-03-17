@@ -42,7 +42,13 @@ Usage of the compendium folders in FoundryVTT is somewhat simple. From a user's 
 
 For example, if you would like to use the template for the Player Character Ict Redfang, you would navigate to the Compendium Packs tab in FoundryVTT, then navigate to the Default folder. In that Default folder will be the compendia for Saga Of The Goblin Horde. The Player Chater Ict Redfang can be found in the SOTGH-Bestiary compendium under the PCs/Pre-Gens directory inside said compendium.
 
-### 1.3.2 Art Assets
+### 1.3.2 Common Issues and Pitfalls
+
+"The hyper links in many Edges and Hindrances don't link to anything".
+
+I had thought about adding swade-core-rules from Pinnacle's Foundry VTT assets as a dependency, which is what many of the Edges and Hindrances link to, but decided against it. Please support the official release of the SWADE VTT assets to access these hyperlinks.
+
+### 1.3.3 Art Assets
 
 Unfortunately, no additional art assets are available for this module at the moment. As such, most of the actor tokens will default to the "mystery man" token in Foundry. However, if you are able to source art assets, you can link your own assets to the tokens, journal entries, items, and scenes onces you've imported them from their compendia to your game. 
 
