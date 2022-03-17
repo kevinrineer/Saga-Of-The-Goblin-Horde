@@ -14,6 +14,7 @@ Library for [Foundry VTT](https://foundryvtt.com/) which provides packaged setti
     - [1.2.1. As a Module](#121-as-a-module)
   - [1.3. Usage](#13-usage)
     - [1.3.1. Summary](#131-summary)
+    - [1.3.2. Art Assets](#132-art-assets)
   - [1.4. Support](#14-support)
     - [1.4.1. Module-specific Support](#141-module-specific-support)
     - [1.4.2. Community Support](#142-community-support)
