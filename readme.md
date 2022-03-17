@@ -1,4 +1,4 @@
-# 1. Saga Of The Goblin Horde
+# 1. Saga Of The Goblin Horde (Unofficial)
 Library for [Foundry VTT](https://foundryvtt.com/) which provides packaged setting information as well as bestiary, ruleset, and journal entries with items, armor, a gazetteer and more.
 
 [![Version (latest)](https://img.shields.io/github/v/release/CrezTheHomie/Saga-Of-The-Goblin-Horde)](https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/latest)
