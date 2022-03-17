@@ -5,7 +5,7 @@ Library for [Foundry VTT](https://foundryvtt.com/) which provides packaged setti
 [![Foundry Version](https://img.shields.io/badge/dynamic/json.svg?url=https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/latest/download/module.json&label=Foundry%20Version&query=$.compatibleCoreVersion&colorB=blueviolet)](https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/latest)
 [![GitHub downloads (latest)](https://img.shields.io/badge/dynamic/json?label=Downloads@latest&query=assets[?(@.name.includes('zip'))].download_count&url=https://api.github.com/repos/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/latest&color=green)](https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/latest)
 [![Forge Install Base](https://img.shields.io/badge/dynamic/json?label=Forge%20Install%20Base&query=package.installs&suffix=%&url=https://forge-vtt.com/api/bazaar/package/lib-wrapper&colorB=brightgreen)](https://forge-vtt.com/)
-[![GitHub issues](https://img.shields.io/github/issues-raw/ruipin/fvtt-lib-wrapper)](https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/issues)
+[![GitHub issues](https://img.shields.io/github/issues-raw/CrezTheHomie/Saga-Of-The-Goblin-Horde)](https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/issues)
 [![Ko-fi](https://img.shields.io/badge/-buy%20me%20a%20coffee-%23FF5E5B?logo=Ko-fi&logoColor=white)](https://ko-fi.com/crezyte)
 
 - [1. Saga-Of-The-Goblin-Horde](#1-Saga-Of-The-Goblin-Horde)
