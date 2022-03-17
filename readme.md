@@ -1,5 +1,5 @@
 # 1. Saga Of The Goblin Horde
-Library for [Foundry VTT](https://foundryvtt.com/) which provides packaged setting information as well as bestiary, ruleset, and journal entries.
+Library for [Foundry VTT](https://foundryvtt.com/) which provides packaged setting information as well as bestiary, ruleset, and journal entries with items, armor, a gazetteer and more.
 
 [![Version (latest)](https://img.shields.io/github/v/release/CrezTheHomie/Saga-Of-The-Goblin-Horde)](https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/latest)
 [![Foundry Version](https://img.shields.io/badge/dynamic/json.svg?url=https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/latest/download/module.json&label=Foundry%20Version&query=$.compatibleCoreVersion&colorB=blueviolet)](https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/latest)
@@ -14,7 +14,7 @@ Library for [Foundry VTT](https://foundryvtt.com/) which provides packaged setti
     - [1.2.1. As a Module](#121-as-a-module)
   - [1.3. Usage](#13-usage)
     - [1.3.1. Summary](#131-summary)
-    - [1.3.2. Common Issues and Pitfalls(#132-common-issues-and-pitfalls)
+    - [1.3.2. Common Issues and Pitfalls](#132-common-issues-and-pitfalls)
     - [1.3.3. Art Assets](#133-art-assets)
   - [1.4. Support](#14-support)
     - [1.4.1. Module-specific Support](#141-module-specific-support)
