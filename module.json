@@ -5,19 +5,13 @@
     "version": "0.1.5",
     "author": "/u/crezyte",
     "minimumCoreVersion": "0.7.5",
-    "compatibleCoreVersion": "0.7.9",
+    "compatibleCoreVersion": "0.8.9",
     "packs": [
         {
-            "name": "sotgh-creatures",
-            "label": "Saga Of The Goblin Horde Creatures",
-            "path": "./packs/creatures.db",
+            "name": "sotgh-bestiary",
+            "label": "Saga Of The Goblin Horde Beastiary",
+            "path": "./packs/sotgh-bestiary.db",
             "entity": "Actor"
-        },
-        {
-            "name": "sotgh-items",
-            "label": "Saga Of The Goblin Horde Items",
-            "path": "./packs/items.db",
-            "entity": "Item"
         },
         {
             "name": "sotgh-scenes",
@@ -26,21 +20,27 @@
             "entity": "Scene"
         },
         {
-            "name": "sotgh-journal-entries",
-            "label": "Saga Of The Goblin Horde Journal Entries",
-            "path": "./packs/journal-entries.db",
+            "name": "sogth-edges-hinderances",
+            "label": "Saga Of The Goblin Horde Edges and Hindrances",
+            "path": "./packs/sogth-edges-hinderances.db",
+            "entity": "Item"
+        },
+        {
+            "name": "sotgh-rules-setting",
+            "label": "Saga Of The Goblin Horde Rules and Setting",
+            "path": "./packs/sotgh-rules-setting.db",
             "entity": "JournalEntry"
         },
         {
             "name": "sotgh-macros",
             "label": "Saga Of The Goblin Horde Macros",
-            "path": "./packs/macros.db",
+            "path": "./packs/sotgh-macros.db",
             "entity": "Macro"
         },
         {
             "name": "sotgh-roll-tables",
             "label": "Saga Of The Goblin Horde Roll Tables",
-            "path": "./packs/roll-tables.db",
+            "path": "./packs/sotgh-roll-tables.db",
             "entity": "RollTable"
         },
         {
@@ -50,6 +50,6 @@
             "entity": "Playlist"
         }
     ],
-    "manifest": "https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/download/0.1.5/module.json",
-    "download": "https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/download/0.1.5/Saga-Of-The-Goblin-Horde.zip"
+    "manifest": "https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/download/0.2.0/module.json",
+    "download": "https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/download/0.2.0/Saga-Of-The-Goblin-Horde.zip"
   }
