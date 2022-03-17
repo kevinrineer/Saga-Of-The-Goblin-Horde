@@ -14,7 +14,7 @@
         {
             "label": "Armor and Weapons",
             "name": "sotgh-weapons-armor",
-            "entity": "Actor",
+            "entity": "Item",
             "path": "./packs/sotgh-weapons-armor.db",
             "system": "swade",
             "package": "Saga-Of-The-Goblin-Horde",
