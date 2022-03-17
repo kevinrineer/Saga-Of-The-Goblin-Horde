@@ -2,41 +2,59 @@
     "name": "Saga-Of-The-Goblin-Horde",
     "title": "Saga Of The Goblin Horde",
     "description": "Saga Of The Goblin Horde is a setting made by Richard Zadmar Woolcock for the Savage Worlds Adventure game system.",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "author": "/u/crezyte",
     "minimumCoreVersion": "0.8.7",
     "compatibleCoreVersion": "0.9.255",
     "manifestPlusVersion": "1.0.0",
+    "esmodules": [
+        "./utils/utils.js"
+    ],
     "packs": [
         {
             "name": "sotgh-bestiary",
             "label": "Bestiary",
             "path": "./packs/sotgh-bestiary.db",
-            "entity": "Actor"
+            "entity": "Actor",
+            "system": "swade",
+            "package": "Saga-Of-The-Goblin-Horde",
+            "private": true
         },
         {
             "name": "sogth-edges-hinderances",
             "label": "Edges and Hindrances",
             "path": "./packs/sogth-edges-hinderances.db",
-            "entity": "Item"
+            "entity": "Item",
+            "system": "swade",
+            "package": "Saga-Of-The-Goblin-Horde",
+            "private": false
         },
         {
             "name": "sotgh-rules-setting",
             "label": "Rules and Setting",
             "path": "./packs/sotgh-rules-setting.db",
-            "entity": "JournalEntry"
+            "entity": "JournalEntry",
+            "system": "swade",
+            "package": "Saga-Of-The-Goblin-Horde",
+            "private": false
         },
         {
             "name": "sotgh-macros",
             "label": "Macros",
             "path": "./packs/sotgh-macros.db",
-            "entity": "Macro"
+            "entity": "Macro",
+            "system": "swade",
+            "package": "Saga-Of-The-Goblin-Horde",
+            "private": false
         },
         {
             "name": "sotgh-roll-tables",
             "label": "Roll Tables",
             "path": "./packs/sotgh-roll-tables.db",
-            "entity": "RollTable"
+            "entity": "RollTable",
+            "system": "swade",
+            "package": "Saga-Of-The-Goblin-Horde",
+            "private": false
         }
     ],
     "system": [
