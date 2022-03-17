@@ -12,37 +12,37 @@
     ],
     "packs": [
         {
-            "name": "sotgh-bestiary",
             "label": "Bestiary",
-            "path": "./packs/sotgh-bestiary.db",
+            "name": "sotgh-bestiary",
             "entity": "Actor",
+            "path": "./packs/sotgh-bestiary.db",
             "system": "swade",
             "package": "Saga-Of-The-Goblin-Horde",
             "private": true
         },
         {
-            "name": "sogth-edges-hinderances",
             "label": "Edges and Hindrances",
-            "path": "./packs/sogth-edges-hinderances.db",
+            "name": "sogth-edges-hinderances",
             "entity": "Item",
+            "path": "./packs/sogth-edges-hinderances.db",
             "system": "swade",
             "package": "Saga-Of-The-Goblin-Horde",
             "private": false
         },
-        {
-            "name": "sotgh-rules-setting",
+        {            
             "label": "Rules and Setting",
-            "path": "./packs/sotgh-rules-setting.db",
+            "name": "sotgh-rules-setting",
             "entity": "JournalEntry",
+            "path": "./packs/sotgh-rules-setting.db",
             "system": "swade",
             "package": "Saga-Of-The-Goblin-Horde",
             "private": false
         },
         {
-            "name": "sotgh-macros",
             "label": "Macros",
-            "path": "./packs/sotgh-macros.db",
+            "name": "sotgh-macros",
             "entity": "Macro",
+            "path": "./packs/sotgh-macros.db",
             "system": "swade",
             "package": "Saga-Of-The-Goblin-Horde",
             "private": false
@@ -50,8 +50,8 @@
         {
             "name": "sotgh-roll-tables",
             "label": "Roll Tables",
-            "path": "./packs/sotgh-roll-tables.db",
             "entity": "RollTable",
+            "path": "./packs/sotgh-roll-tables.db",
             "system": "swade",
             "package": "Saga-Of-The-Goblin-Horde",
             "private": false
