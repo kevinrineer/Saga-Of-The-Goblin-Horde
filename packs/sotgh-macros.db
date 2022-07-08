@@ -1,1 +1,0 @@
-{"name":"Find Traps","type":"script","author":"0llfus6nG1V829T5","img":"icons/svg/ruins.svg","scope":"global","command":"game.tables.getName('Traps').draw();","folder":null,"sort":0,"permission":{"default":0,"0llfus6nG1V829T5":3},"flags":{"core":{"sourceId":"Macro.Lau28jisLmDnnvWZ"}},"_id":"1pk597rb4mPRIUsr"}
