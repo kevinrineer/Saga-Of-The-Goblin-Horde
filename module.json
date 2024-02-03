@@ -2,7 +2,7 @@
     "name": "Saga-Of-The-Goblin-Horde",
     "title": "Saga Of The Goblin Horde",
     "description": "Saga Of The Goblin Horde is a setting made by Richard Zadmar Woolcock for the Savage Worlds Adventure game system.",
-    "version": "1.1.7",
+    "version": "1.1.8",
     "author": "/u/crezyte",
     "minimumCoreVersion": "0.8.7",
     "compatibleCoreVersion": "9",
@@ -18,6 +18,10 @@
             "path": "./packs/sotgh-bestiary.db",
             "system": "swade",
             "package": "Saga-Of-The-Goblin-Horde",
+	    "ownership": {
+				"PLAYER": "LIMITED",
+				"ASSISTANT": "OWNER"
+			},
             "private": true
         },
         {
@@ -27,6 +31,10 @@
             "path": "./packs/sogth-edges-hinderances.db",
             "system": "swade",
             "package": "Saga-Of-The-Goblin-Horde",
+	    "ownership": {
+				"PLAYER": "LIMITED",
+				"ASSISTANT": "OWNER"
+			},
             "private": false
         },
         {
@@ -36,15 +44,23 @@
             "path": "./packs/sotgh-macros.db",
             "system": "swade",
             "package": "Saga-Of-The-Goblin-Horde",
+            "ownership": {
+				"PLAYER": "LIMITED",
+				"ASSISTANT": "OWNER"
+			},
             "private": false
         },
         {
             "label": "Powers",
             "name": "sogth-powers",
             "entity": "Item",
-            "path": "./packs/sogth-powers.db",
+            "path": "./packs/sotgh-powers.db",
             "system": "swade",
             "package": "Saga-Of-The-Goblin-Horde",
+            "ownership": {
+				"PLAYER": "LIMITED",
+				"ASSISTANT": "OWNER"
+			},
             "private": false
         },
         {
@@ -54,6 +70,10 @@
             "path": "./packs/sotgh-roll-tables.db",
             "system": "swade",
             "package": "Saga-Of-The-Goblin-Horde",
+			"ownership": {
+				"PLAYER": "LIMITED",
+				"ASSISTANT": "OWNER"
+			},
             "private": false
         },
         {            
@@ -63,6 +83,10 @@
             "path": "./packs/sotgh-rules-setting.db",
             "system": "swade",
             "package": "Saga-Of-The-Goblin-Horde",
+			"ownership": {
+				"PLAYER": "LIMITED",
+				"ASSISTANT": "OWNER"
+			},
             "private": false
         },
         {
@@ -72,6 +96,10 @@
             "path": "./packs/sotgh-weapons-armor.db",
             "system": "swade",
             "package": "Saga-Of-The-Goblin-Horde",
+			"ownership": {
+				"PLAYER": "LIMITED",
+				"ASSISTANT": "OWNER"
+			},
             "private": false
         }
     ],
