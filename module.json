@@ -15,7 +15,7 @@
         {
             "label": "Bestiary",
             "name": "sotgh-bestiary",
-            "entity": "Actor",
+            "type": "Actor",
             "path": "./packs/sotgh-bestiary.db",
             "system": "swade",
             "package": "Saga-Of-The-Goblin-Horde",
@@ -28,7 +28,7 @@
         {
             "label": "Edges and Hindrances",
             "name": "sogth-edges-hinderances",
-            "entity": "Item",
+            "type": "Item",
             "path": "./packs/sogth-edges-hinderances.db",
             "system": "swade",
             "package": "Saga-Of-The-Goblin-Horde",
@@ -41,7 +41,7 @@
         {
             "label": "Macros",
             "name": "sotgh-macros",
-            "entity": "Macro",
+            "type": "Macro",
             "path": "./packs/sotgh-macros.db",
             "system": "swade",
             "package": "Saga-Of-The-Goblin-Horde",
@@ -54,7 +54,7 @@
         {
             "label": "Powers",
             "name": "sogth-powers",
-            "entity": "Item",
+            "type": "Item",
             "path": "./packs/sotgh-powers.db",
             "system": "swade",
             "package": "Saga-Of-The-Goblin-Horde",
@@ -67,7 +67,7 @@
         {
             "name": "sotgh-roll-tables",
             "label": "Roll Tables",
-            "entity": "RollTable",
+            "type": "RollTable",
             "path": "./packs/sotgh-roll-tables.db",
             "system": "swade",
             "package": "Saga-Of-The-Goblin-Horde",
@@ -80,7 +80,7 @@
         {            
             "label": "Rules and Setting",
             "name": "sotgh-rules-setting",
-            "entity": "JournalEntry",
+            "type": "JournalEntry",
             "path": "./packs/sotgh-rules-setting.db",
             "system": "swade",
             "package": "Saga-Of-The-Goblin-Horde",
@@ -93,7 +93,7 @@
         {
             "label": "Armor and Weapons",
             "name": "sotgh-weapons-armor",
-            "entity": "Item",
+            "type": "Item",
             "path": "./packs/sotgh-weapons-armor.db",
             "system": "swade",
             "package": "Saga-Of-The-Goblin-Horde",
