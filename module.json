@@ -1,117 +1,110 @@
 {
-    "id": "Saga-Of-The-Goblin-Horde",
-    "name": "Saga-Of-The-Goblin-Horde",
-    "title": "Saga Of The Goblin Horde",
-    "description": "Saga Of The Goblin Horde is a setting made by Richard Zadmar Woolcock for the Savage Worlds Adventure game system.",
-    "version": "1.1.9",
-    "author": "/u/crezyte",
-    "minimumCoreVersion": "0.8.7",
-    "compatibleCoreVersion": "11",
-    "manifestPlusVersion": "1.0.0",
-    "esmodules": [
-        "./utils/utils.js"
-    ],
-    "relationships": {
-      "requires": [
+  "title": "Saga Of The Goblin Horde",
+  "description": "Saga Of The Goblin Horde is a setting made by Richard Zadmar Woolcock for the Savage Worlds Adventure game system.",
+  "version": "11.0.0",
+  "esmodules": [
+    "utils/utils.js"
+  ],
+  "packs": [
+    {
+      "name": "sotgh-bestiary",
+      "label": "Bestiary",
+      "path": "packs/sotgh-bestiary",
+      "type": "Actor",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "sogth-edges-hinderances",
+      "label": "Edges and Hindrances",
+      "path": "packs/sogth-edges-hinderances",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "sotgh-macros",
+      "label": "Macros",
+      "path": "packs/sotgh-macros",
+      "type": "Macro",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "sogth-powers",
+      "label": "Powers",
+      "path": "packs/sotgh-powers",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "sotgh-roll-tables",
+      "label": "Roll Tables",
+      "path": "packs/sotgh-roll-tables",
+      "type": "RollTable",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "sotgh-rules-setting",
+      "label": "Rules and Setting",
+      "path": "packs/sotgh-rules-setting",
+      "type": "JournalEntry",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "sotgh-weapons-armor",
+      "label": "Armor and Weapons",
+      "path": "packs/sotgh-weapons-armor",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "manifest": "https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/latest/download/module.json",
+  "download": "https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/latest/download/Saga-Of-The-Goblin-Horde.zip",
+  "id": "Saga-Of-The-Goblin-Horde",
+  "authors": [
+    {
+      "name": "CrezTheHomie",
+      "email": "crezyte@gmail.com",
+      "url": "https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde"
+    }
+  ],
+  "relationships": {
+    "systems": [
       {
-        "id": "compendium-folders",
-        "type": "module",
+        "id": "swade",
+        "type": "system",
         "compatibility": {}
       }
     ]
-    },
-    "authors": [
-      {
-        "name": "/u/crezthehomie",
-        "flags": {}
-      }
-    ],
-    "packs": [
-        {
-          "name": "sotgh-bestiary",
-          "label": "Bestiary",
-          "path": "packs/sotgh-bestiary.db",
-          "type": "Actor",
-          "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
-          },
-          "system": "swade",
-          "flags": {}
-        },
-        {
-            "name": "sogth-edges-hinderances",
-            "label": "Edges and Hindrances",
-            "path": "packs/sogth-edges-hinderances.db",
-            "type": "Item",
-	        "ownership": {
-				    "PLAYER": "LIMITED",
-				    "ASSISTANT": "OWNER"
-			    },
-          "system": "swade",
-          "flags": {}
-        },
-        {
-            "name": "sotgh-macros",
-            "label": "Macros",
-            "path": "packs/sotgh-macros.db",
-            "type": "Macro",
-            "ownership": {
-              "PLAYER": "OBSERVER",
-               "ASSISTANT": "OWNER"
-            },
-          "system": "swade",
-          "flags": {}
-			  },
-        {
-            "name": "sogth-powers",
-            "label": "Powers",
-            "path": "packs/sotgh-powers.db",
-            "type": "Item",
-            "ownership": {
-              "PLAYER": "OBSERVER",
-               "ASSISTANT": "OWNER"
-            },
-            "system": "swade",
-            "flags": {}
-        },
-        {
-            "name": "sotgh-roll-tables",
-            "label": "Roll Tables",
-            "path": "packs/sotgh-roll-tables.db",
-            "type": "RollTable",
-            "ownership": {
-              "PLAYER": "OBSERVER",
-               "ASSISTANT": "OWNER"
-            },
-            "system": "swade",
-            "flags": {}
-        },
-        {            
-            "label": "Rules and Setting",
-            "name": "sotgh-rules-setting",
-            "type": "JournalEntry",
-            "path": "packs/sotgh-rules-setting.db",
-            "ownership": {
-              "PLAYER": "OBSERVER",
-               "ASSISTANT": "OWNER"
-            },
-            "system": "swade",
-            "flags": {}
-        },
-        {
-            "label": "Armor and Weapons",
-            "name": "sotgh-weapons-armor",
-            "type": "Item",
-            "path": "packs/sotgh-weapons-armor.db",
-            "ownership": {
-              "PLAYER": "OBSERVER",
-               "ASSISTANT": "OWNER"
-            },
-            "system": "swade",
-            "flags": {}
-        }
-    ],
-    "manifest": "https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/latest/download/module.json",
-    "download": "https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/latest/download/Saga-Of-The-Goblin-Horde.zip"
+  },
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
   }
+}
