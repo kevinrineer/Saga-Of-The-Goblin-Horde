@@ -26,7 +26,7 @@ This is a fan-made library for [Foundry VTT](https://foundryvtt.com/) which prov
 
 ## 1.1. Why?
 
-I wanted ease of access to the rules and settings for the freely available [Saga Of The Goblin Horde from Zadmar](https://preview.drivethrurpg.com/en/product/225745/Saga-of-the-Goblin-Horde-Savage-Worlds-Deluxe) for FoundryVTT. Figured others would like to be able to set up a new campaign quickly as well.
+I wanted ease of access to the rules and settings for the freely available [Saga Of The Goblin Horde from Zadmar](https://preview.drivethrurpg.com/en/product/225745/Saga-of-the-Goblin-Horde-Savage-Worlds-Deluxe) for FoundryVTT. Figured others would like to be able to set up a new campaign quickly as well. Anyone could do the same thing, but GMs need to save as much time as they can to focus on making their next session great!
 
 ## 1.2. Installation
 
