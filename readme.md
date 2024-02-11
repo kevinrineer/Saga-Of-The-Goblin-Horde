@@ -1,6 +1,8 @@
 # 1. Saga Of The Goblin Horde (Unofficial)
 This is a fan-made library for [Foundry VTT](https://foundryvtt.com/) which provides packaged setting information as well as bestiary, ruleset, and journal entries with items, armor, a gazetteer and more. The module is provided as-is with no guarantee of functionality. If you paid for this module, you have been scammed.
 
+**Use of this module requires using the Savage Worlds Adventure Edition system on Foundry**
+
 [![Version (latest)](https://img.shields.io/github/v/release/CrezTheHomie/Saga-Of-The-Goblin-Horde)](https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/latest)
 [![Foundry Version](https://img.shields.io/badge/dynamic/json.svg?url=https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/latest/download/module.json&label=Foundry%20Version&query=$.compatibleCoreVersion&colorB=blueviolet)](https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/latest)
 [![GitHub downloads (latest)](https://img.shields.io/badge/dynamic/json?label=Downloads@latest&query=assets[?(@.name.includes('zip'))].download_count&url=https://api.github.com/repos/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/latest&color=green)](https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/latest)
@@ -24,7 +26,7 @@ This is a fan-made library for [Foundry VTT](https://foundryvtt.com/) which prov
 
 ## 1.1. Why?
 
-I wanted ease of access to the rules settings for Zadmar's Saga Of The Goblin Hordes for FoundryVTT. Figured others would like to be able to set up a new campaign quickly as well.
+I wanted ease of access to the rules and settings for the freely available [Saga Of The Goblin Horde from Zadmar](https://preview.drivethrurpg.com/en/product/225745/Saga-of-the-Goblin-Horde-Savage-Worlds-Deluxe) for FoundryVTT. Figured others would like to be able to set up a new campaign quickly as well.
 
 ## 1.2. Installation
 
@@ -35,23 +37,25 @@ I wanted ease of access to the rules settings for Zadmar's Saga Of The Goblin Ho
 
 2.  Enable the Module in your World's Module Settings
 
+*NOTE: There is an open issue that Foundry may complain about the module needing "Compendium Folders", which is NOT the case.*
+
 ## 1.3. Usage
 
 ### 1.3.1. Summary
 
 Usage of the compendium folders in FoundryVTT is somewhat simple. From a user's perspective, you will be able to import the elements in the compendium as by dragging and dropping them onto your world or their respective tab.
 
-For example, if you would like to use the template for the Player Character Ict Redfang, you would navigate to the Compendium Packs tab in FoundryVTT, then navigate to the Default folder. In that Default folder will be the compendia for Saga Of The Goblin Horde. The Player Chater Ict Redfang can be found in the SOTGH-Bestiary compendium under the PCs/Pre-Gens directory inside said compendium.
+For example, if you would like to use the template for the Player Character Ict Redfang, you would navigate to the Compendium Packs tab in FoundryVTT, then navigate to the Default folder. In that Default folder will be the compendia for Saga Of The Goblin Horde. The Player Character Ict Redfang can be found in the SOTGH-Bestiary compendium under the PCs/Pre-Gens directory inside said compendium.
 
 ### 1.3.2 Common Issues and Pitfalls
 
 "The hyper links in many Edges and Hindrances don't link to anything".
 
-I had thought about adding swade-core-rules from Pinnacle's Foundry VTT assets as a dependency, which is what many of the Edges and Hindrances link to, but decided against it. Please support the official release of the SWADE VTT assets to access these hyperlinks.
+I might add [swade-core-rules](https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/) from Pinnacle's Foundry VTT assets as a dependency, which is what many of the Edges and Hindrances link to. Please support the official release of the SWADE VTT assets to access these hyperlinks.
 
 ### 1.3.3 Art Assets
 
-Unfortunately, no additional art assets are available for this module at the moment. As such, most of the actor tokens will default to the "mystery man" token in Foundry. However, if you are able to source art assets, you can link your own assets to the tokens, journal entries, items, and scenes onces you've imported them from their compendia to your game. 
+Unfortunately, no additional art assets are available for this module at the moment. If you are able to source art assets, you can link your own assets to the tokens, journal entries, items, and scenes onces you've imported them from their compendia to your game. 
 
 
 ## 1.4. Support
