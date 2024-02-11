@@ -34,13 +34,6 @@ I wanted ease of access to the rules settings for Zadmar's Saga Of The Goblin Ho
     > https://github.com/CrezTheHomie/Saga-Of-The-Goblin-Horde/releases/latest/download/module.json
 
 2.  Enable the Module in your World's Module Settings
-3.  The art assets can be moved to nest under `FoundryVTT\Data\Art\` or can be remapped based on your need.
-
-### 1.2.2. As files
-
-The links to the included art assets expect the SOTGH-Art folder to be nested under Foundry's data folder. Foundry's data folder in Windows is typically located under `%LOCALAPPDATA\FoundryVTT\Data\` 
-
-The SOTGTH-Art folder should be copied so that it has the full path of `%LOCALAPPDATA\FoundryVTT\Data\Art\SOTGH-Art` assuming the default Foundry install on a windows computer. I don't remember the full path on Linux, but I think it is something close to `~/.foundry/Data`. I assume MacOS is the same.
 
 ## 1.3. Usage
 
